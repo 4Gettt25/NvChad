@@ -57,9 +57,17 @@ local plugins = {
 
   {
     import = "custom.configs.extras.symbols-outline",
-  }
+  },
 
-  -- To make a plugin not be loaded
+  --{
+  --import = "custom.snippets.intellicode"
+  --},
+
+  {
+  'neoclide/coc.nvim',
+  opts = overrides.coc,
+  },
+    -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
   --   enabled = false

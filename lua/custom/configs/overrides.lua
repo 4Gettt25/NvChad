@@ -59,4 +59,9 @@ M.nvimtree = {
   },
 }
 
+--coc 
+M.coc = {
+
+}
+
 return M
