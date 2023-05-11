@@ -72,6 +72,9 @@ local plugins = {
   --   "NvChad/nvim-colorizer.lua",
   --   enabled = false
   -- },
+  {
+     "mfussenegger/nvim-jdtls",
+  },
 
 }
 

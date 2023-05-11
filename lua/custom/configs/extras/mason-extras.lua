@@ -60,6 +60,8 @@ local setup = function(_, opts)
   })
 end
 
+
+
 ---@type NvPluginSpec
 local spec = {
   "neovim/nvim-lspconfig",
